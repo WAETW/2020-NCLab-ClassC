@@ -61,6 +61,8 @@ def detect_intent_stream():
 def action_detection(response):
     action = response.query_result.action
     if action == 'help':
+        #emergency_mail(寄件者email, 寄件者密碼, 收件者email, 內容)
+        emergency_mail(sender_email, sender_password, reciver_email, text)
         print(1)
     else:
         print(0)
