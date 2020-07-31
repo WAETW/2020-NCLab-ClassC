@@ -9,3 +9,4 @@ python3 help_me.py your.pmdl
 ```
 python3 help_me_with_nlu_dialogflow.py your.pmdl
 ```
+* Note: your.pmdl 是你在[snowboy](https://snowboy.kitt.ai/)上面的訓練的個人model
