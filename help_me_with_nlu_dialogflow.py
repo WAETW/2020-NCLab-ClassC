@@ -1,6 +1,6 @@
 import sys
 import signal
-
+import snowboydecoder
 from dialogflow_speech import *
 
 interrupted = False
